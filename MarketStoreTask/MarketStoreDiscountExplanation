@@ -1,0 +1,21 @@
+Assignment: Market Store Discounts
+Explanation
+
+For the solution of this assignment I created an abstract class Card, which contains
+variables and abstract methods. Next, I created classes for each type of card -
+Bronze, Silver and Gold. They extend the class Card so they have to provide
+specific implementation of the abstract methods. The calculations for the discounts
+are made in the constructors of the child classes. The constructors take as
+parameter the turnover, the value of the purchase and owners name. If owner name is
+not provided the constructor uses "Unknown". So when we create new card we can set
+the name of the owner or we can do it later, using the method setOwnerName.
+
+After that I created a class PayDesk. It has a static method called printInfo.
+The method takes as parameter a card of any type(bronze, silver, gold) thanks to
+polymorphism. This method check the type of the card and prints information about
+the card type, the owner, the value of the purchase, th discount rate, the discount
+and total sum for paying.
+
+In the class MarketStoreDemo I created instances of each card - Bronze, Silver and
+Gold. Next I pass these instances to the static method printInfo to display the
+needed information.
