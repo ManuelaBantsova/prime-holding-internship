@@ -22,6 +22,10 @@ public class GoldCard extends Card {
         return this.ownerName;
     }
 
+    public void setOwnerName(String ownerName) {
+        this.ownerName = ownerName;
+    }
+
     public GoldCard(double turnover, double purchaseValue) {
         this(turnover, purchaseValue, "Unknown");
     }

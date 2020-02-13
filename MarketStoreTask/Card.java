@@ -12,5 +12,6 @@ public abstract class Card {
     public abstract double getDiscount();
     public abstract double getTurnover();
     public abstract String getOwnerName();
+    public abstract void setOwnerName(String ownerName);
 
 }

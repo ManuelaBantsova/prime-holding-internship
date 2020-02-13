@@ -21,6 +21,10 @@ public class SilverCard extends Card {
         return this.ownerName;
     }
 
+    public void setOwnerName(String ownerName) {
+        this.ownerName = ownerName;
+    }
+
     public SilverCard(double turnover, double purchaseValue) {
         this(turnover, purchaseValue, "Unknown");
     }
