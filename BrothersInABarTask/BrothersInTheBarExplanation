@@ -1,0 +1,17 @@
+Problem: Brothers in the bar
+Explanation
+
+To solve this problem, first I create an ArrayList from the input(which is array).
+ArrayList has many methods, but most important has remove() methods, which I use
+for the solution of this problem.
+
+I created a static method, called calculateRounds. This method takes as parameter
+an ArrayList. In the method calculateRounds there is a for-loop. In the loop I check
+if there are 3 consecutive glasses of the same size. If the condition is true, then
+I increment a static variable, called counter, to store the information about the
+number of  the rounds. Next, I remove the 3 consecutive glasses from the ArrayList
+and recursively I call again the same method. If the condition is false, then the
+method returns the value of the variable counter.
+
+To check if the elements of the array are valid I created a method, called
+checkForValidValues, which takes as parameter an array and returns a boolean value.
