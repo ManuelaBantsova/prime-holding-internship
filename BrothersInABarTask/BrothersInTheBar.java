@@ -5,7 +5,7 @@ import java.util.*;
 public class BrothersInTheBar {
     private static int counter = 0;
     public static void main(String[] args) {
-        Integer[] glasses = {1, 1, 2, 1, 2, 2, 1, 1};
+        Integer[] glasses = {1, 1, 2, 1, 2, 2, 2, 1, 1};
 
         if (glasses.length >= 1 && glasses.length <= 100_000
         && checkForValidValues(glasses)) {
@@ -24,7 +24,6 @@ public class BrothersInTheBar {
                 list.remove(i+2);
                 list.remove(i+1);
                 list.remove(i);
-                System.out.println(list);
                 calculateRounds(list);
             }
         }
