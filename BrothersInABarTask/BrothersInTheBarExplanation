@@ -1,7 +1,7 @@
 Problem: Brothers in the bar
 Explanation
 
-To solve this problem, first I create an ArrayList from the input(which is array).
+To solve this problem, first I created an ArrayList from the input(which is array).
 ArrayList has many methods, but most important has remove() methods, which I use
 for the solution of this problem.
 
