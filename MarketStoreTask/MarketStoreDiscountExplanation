@@ -12,7 +12,7 @@ the name of the owner or we can do it later, using the method setOwnerName.
 
 After that I created a class PayDesk. It has a static method called printInfo.
 The method takes as parameter a card of any type(bronze, silver, gold) thanks to
-polymorphism. This method check the type of the card and prints information about
+polymorphism. This method checks the type of the card and prints information about
 the card type, the owner, the value of the purchase, th discount rate, the discount
 and total sum for paying.
 
